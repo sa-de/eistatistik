@@ -14,8 +14,6 @@
     <script src="https://peledies.github.io/google-places/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://peledies.github.io/google-places/bower_components/google-places/google-places.js"></script>    
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAlw-4Nmq-kyE3RcvReo42oQG2qtIFgLzQ&libraries=places"></script>
-
-    
   </head>
   <body>
     <section class="page-header">
@@ -32,7 +30,6 @@
       </h1>
       
       <a class="btn" href="https://www.google.com/search?q=E%C4%B0STAT%C4%B0ST%C4%B0K&ie=utf-8&oe=utf-8#lrd=0x40887f008eeee8b5:0x799cc17acd8132a3,1,,,">Tüm Yorumlar</a>
-      <br>
       <a class="btn" href="https://www.google.com/search?q=E%C4%B0STAT%C4%B0ST%C4%B0K&ie=utf-8&oe=utf-8#lrd=0x40887f008eeee8b5:0x799cc17acd8132a3,3,,,">Yeni Yorum Ekle</a>
 
       <!--h2>Fade Demo</h2-->
@@ -59,5 +56,27 @@
       });
     });
   </script>
+
+  <style>
+    .btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(206, 21, 21, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(199, 20, 20, 0.7);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+  .btn + .btn {
+    margin-left: 1rem; }
+
+.btn:hover {
+  color: rgba(206, 21, 21, 0.4);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(199, 20, 20, 0.5); }
+</style>
+   
   </body>
 </html>
